@@ -1,0 +1,53 @@
+baseURL = "https://admin-ify.github.io/"
+languageCode = "en-us"
+title = "Sköll"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Sköll - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+canonifyurls = true
+
+
+[permalinks]
+ posts = "/posts/:year/:month/:slug/"
+
+[params]
+  logo = "/images/author.png"
+  description ="One wolf, one name, many stories"
+
+[params.author]
+  name = "Sköll"
+  thumbnail = "/images/author.png"
+  description = "special wolf."
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Sköll"
+  subtitle = "One wolf, one name, many stories"
+  mdtext = '''
+  Viel Bla  
+  #Bla Bla
+'''
+  alertbar = false
+
+[params.social]
+  twitter = "skollwuff"
+  telegram ="skollwolf"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/posts"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
