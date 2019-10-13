@@ -19,7 +19,7 @@ canonifyurls = true
 [params.author]
   name = "Sköll"
   thumbnail = "/images/author.png"
-  description = "special wolf."
+  description = "A special Wolf from Germany"
 
 [params.index]
   picture = "/images/author.png"
@@ -29,7 +29,7 @@ canonifyurls = true
   Viel Bla  
   #Bla Bla
 '''
-  alertbar = false
+  alertbar = true
 
 [params.social]
   twitter = "skollwuff"
